@@ -2,12 +2,10 @@
 
 int main()
 {
-    float sum = 0;
+    double sum = 0;
     for(int i = 1; i < 51; i++)
     {
-        sum += (1 / i);
-        printf(" sum %f\n", sum);
-        printf(" i %f\n", i);
+        sum += (1.0 / i);
     }
     printf("%f", sum);
 }
